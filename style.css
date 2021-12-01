@@ -1,0 +1,26 @@
+body{
+    background-color: aqua;
+}
+.container{
+    border-style: double;
+    border-width: 10px;
+    border-color: tomato;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    margin: 220px;
+    /* padding: 100px; */
+}
+.temperature{
+    /* padding: 80px; */
+}
+.button{
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    line-height: normal;
+
+}
+.name{
+    font-size: larger;
+}

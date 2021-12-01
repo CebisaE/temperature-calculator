@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Temperature Conversion</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet'  href='style.css'>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="temperature">
+          <h1>TEMPERATURE CONVERTER</h1> 
+          </div>
+            <form>
+            
+          <p class="name">Fahrenheit:</p><input type="text" name="fahr" size=7>
+          <p class="name">Celsius:</p><input type="text" name="cels" size=7>
+            <br /><br />
+            <div class="button">
+            <input type="button" class="converter" value="Convert Temperature"  onClick="tempConversion(this.form)">
+            </div>
+            <div class="button">
+            <input type="button" class="wiper" value="Clear Entries" onClick="wipe(this.form)">
+          </div>
+            </form>
+        
+        </div>
+    <script src='./script.js'></script> 
+</body>
+</html>
