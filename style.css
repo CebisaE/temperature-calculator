@@ -1,10 +1,12 @@
 body{
-    background-color: aqua;
+    background-image: url(Temp-converter-min.png);
+    background-repeat: no-repeat;
+    background-size:100% ;
 }
 .container{
     border-style: double;
     border-width: 10px;
-    border-color: tomato;
+    border-color:black;
     display: grid;
     flex-direction: column;
     justify-content: center;
